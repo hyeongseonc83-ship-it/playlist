@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+* {
+    font-family: 'Cute Font', sans-serif;
+    font-size: 1.7rem;
+}
+
+body {
+    background: linear-gradient(135deg, #7f7fff, #ff9a9e, #808000);
+    color: white;
+    padding: 30px;
+}
+
+#album-header {
+    text-align: center;
+    padding: 20px;
+    line-height: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.maintitle {
+    font-size: 5rem;
+    text-shadow: 0px 0px 10px #7fff00;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    color: rgba(252,252,252,0.8);
+}
+/* 2. 가사 영역 꾸미기 */
+.lyrics-box {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+}
+
+.highlight {
+
+    background: linear-gradient(135deg, #8000ff, #f0f, #dc143c);
+    color: #7fff00;
+    box-shadow: #7fff00 0px 0px 20px;
+    border-radius: 100px;
+    font-size: 2.3rem;
+    background-size: contain;
+    width: 29%;
+    margin: auto;
+}
+
+.summation{
+    list-style-position: inside;
+    list-style-image: url(accept.png);
+    line-height: 2rem;
+}
+
+/* 4. 표(table) 꾸미기 */
+.track-section {
+    tbody tr:nth-child(odd) {
+        background: rgba(255, 255, 255, 0.1);
+    }
+}
+
+#track-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+th,
+td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+th {
+    border-bottom:3px solid rgba(255, 255, 255, 0.8);
+}
+
+/* 5. 버튼 꾸미기 */
+.listen-btn {
+    background: white;
+    color: #ec4899;
+    border-radius: 50px;
+    list-style-position: inside;
+    list-style-image: url(play.png);
+}
