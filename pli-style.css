@@ -14,7 +14,6 @@ body {
 #album-header {
     text-align: center;
     padding: 20px;
-    line-height: 0.5rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -32,6 +31,8 @@ body {
     text-align: center;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 100px;
+    white-space: break-word;
+    overflow: hidden;
 }
 
 .highlight {
